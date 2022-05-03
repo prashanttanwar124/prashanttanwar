@@ -1,0 +1,14 @@
+@import "./glitche-basic.css";
+@import "./glitche-layout.css";
+@import "./ionicons.css";
+@import "./magnific-popup.css";
+@import "./animate.css";
+@import "./template-colors/orange.css";
+@import "./template-dark/dark.css";
+
+a:focus,
+a:visited,
+a:active {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}

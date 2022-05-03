@@ -1,0 +1,92 @@
+@import "./variables.scss";
+@import "./uikit/variables-theme.scss";
+@import "./uikit/mixins-theme.scss";
+//MIXIN TYPE HERE
+@import "./uikit/uikit-theme.scss";
+@import "vuesax/dist/vuesax";
+@import "boxicons";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" !important;
+}
+body {
+    background-color: #f4f7f8;
+}
+.uk-text-danger {
+    font-size: 0.7rem !important;
+}
+.uk-text-small {
+    font-size: 0.8rem !important;
+}
+.select-lable {
+    margin-bottom: 4px;
+}
+.loginPage {
+    background-color: aqua;
+    height: 100vh;
+
+    .clip-pathDiv {
+        background-color: red;
+        height: 50vh;
+        clip-path: polygon(0 29%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+
+.vs-input,
+.vs-select__input,
+.vs-select__chips {
+    padding: 12px 13px !important;
+    width: 100% !important;
+    font-size: 16px !important;
+}
+
+// .vs-select__chips {
+//     // min-height: 46px !important;
+// }
+.labelYes {
+    .vs-input__label {
+        left: 4.5px !important;
+    }
+}
+
+.vs-select__label {
+    top: unset;
+}
+
+.vs-select__label--label {
+    margin-top: -18px !important;
+}
+
+.vs-select-content {
+    max-width: unset;
+}
+
+.vs-select__message {
+    margin-top: 8px !important;
+}
+
+.vs-dialog__content {
+    margin-bottom: 0px !important;
+}
+.vs-input__message {
+    padding-top: 8px !important;
+}
+.vs-notification--danger h4 {
+    color: #ffffff !important;
+}
+
+#nprogress {
+    pointer-events: none;
+    .bar {
+        background: #29d;
+        position: fixed;
+        z-index: 1031;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        box-shadow: 0 0 10px #29d, 0 0 5px #29d;
+    }
+}
